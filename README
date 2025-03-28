@@ -1,0 +1,25 @@
+Fisiere proiect:
+  creare-tabele.sql: creeaza tabelele
+  TRG-plantare-teren.sql: creeaza trigger pe Terenuri, declansat de Operatiuni
+  TRG-pret-vanzare.sql: creeaza trigger pe Vanzari, declansat de Vanzari
+  TRG-recoltare-stoc.sql: creeaza trigger pe Stoc, declansat de REcoltari
+  TRG-recoltare-teren.sql: creeaza trigger pe Terenuri, declansat de Operatiuni
+  TRG-vanzare-stoc.sql: creeaza trigger pe Stoc, declansat de Vanzari
+  populare-tabele.sql: populeaza tabelele cu date care simuleaza un flux real de interactiuni cu baza de date
+
+  script.sql: contine toate fisierele de initializare a bazei de date de mai sus ^
+
+  raport-complex-4.sql: procedura pentru RaportPerformanteTerenuri (complexitate >= 4)
+  raport-complex-6.sql: procedura pentru RaportPerformanteCulturi (complexitate >= 6)
+  raport-complex-7.sql: procedura pentru RaportVanzariCalitate (complexitate >= 7)
+
+  main.py: aplicatia Python care se conecteaza la baza de date, ruleaza procedurile stocate si afiseaza
+  rapoarte grafice pe baza datelor obtinute
+
+Setup proiect:
+  - pornire container Docker
+  - conectare MSSMS
+  - rulare script.sql si proceduri SQL in MSSMS
+
+Rulare aplicatie:
+  > python3 .\main.py
