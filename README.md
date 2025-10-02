@@ -5,7 +5,7 @@ Include atât **scripturi SQL** pentru structură și logică de business (trigg
 
 Proiect realizat pentru cursul **Baze de Date Distribuite**, folosind **SSMS**.
 
-## Structura proiectului
+## Structura proiectului  
 
 - **SQL**
   - `creare-tabele.sql` – creează toate tabelele bazei de date
