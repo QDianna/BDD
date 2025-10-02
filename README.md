@@ -24,8 +24,6 @@ Proiect realizat pentru cursul **Baze de Date Distribuite**, folosind **SSMS**.
   - `main.py` – aplicația care se conectează la baza de date și generează rapoarte grafice
   - Utilizează `pyodbc`, `matplotlib` și `numpy`
 
----
-
 ## Funcționalități
 
 - Bază de date cu tabele pentru **terenuri, culturi, operațiuni, recoltări, vânzări, stocuri**  
@@ -38,8 +36,6 @@ Proiect realizat pentru cursul **Baze de Date Distribuite**, folosind **SSMS**.
   - **Performanța culturilor** (producție vs. costuri)
   - **Vânzări pe categorii de calitate** (procente și cumpărători principali)
 - Aplicație Python pentru vizualizări grafice interactive pe baza datelor din rapoarte
-
----
 
 ## Setup
 
