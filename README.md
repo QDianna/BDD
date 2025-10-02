@@ -3,7 +3,6 @@
 Acest proiect simulează o aplicație de **management agricol** pe bază de date relaționale și rapoarte vizuale.  
 Include atât **scripturi SQL** pentru structură și logică de business (triggers, proceduri stocate), cât și o aplicație **Python** care generează rapoarte grafice pe baza datelor.
 Proiect realizat pentru cursul **Baze de Date Distribuite**, folosind **SSMS**.
----
 
 ## Structura proiectului
 
