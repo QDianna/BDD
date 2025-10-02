@@ -26,7 +26,7 @@ Proiect realizat pentru cursul **Baze de Date Distribuite**, folosind **SSMS**.
 
 ---
 
-## Funcționalități principale
+## Funcționalități
 
 - Bază de date cu tabele pentru **terenuri, culturi, operațiuni, recoltări, vânzări, stocuri**  
 - Triggere pentru:
